@@ -1,19 +1,15 @@
 {
-  "name": "circle29",
-  "version": "1.0.0",
-  "description": "circle ci",
-  "main": "circle_test.js",
+  "name": "learn-travis-Abhishek",
+  "description": "Simple Travis-CI check for JSHint (Code Linting)",
+  "author": "Abhishek",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jshint": "^2.9.6"
+  },
   "scripts": {
-    "test": "npm test"
+    "test": "node travis_test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abhi291096/circle2.git"
-  },
-  "author": "abhishek",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/abhi291096/circle2/issues"
-  },
-  "homepage": "https://github.com/abhi291096/circle2#readme"
+  "dependencies": {
+    "selenium-webdriver": "^3.6.0"
+  }
 }
