@@ -1,0 +1,19 @@
+{
+  "name": "circle29",
+  "version": "1.0.0",
+  "description": "circle ci",
+  "main": "circle_test.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhi291096/circle2.git"
+  },
+  "author": "abhishek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhi291096/circle2/issues"
+  },
+  "homepage": "https://github.com/abhi291096/circle2#readme"
+}
